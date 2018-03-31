@@ -1,0 +1,9 @@
+## ignore stuff
+HDRI/
+.vs/
+## Intermediate/AssetRegistryCache/
+Saved/Config/CrashReportClient/
+Saved/Logs/
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+*.log
+*.log

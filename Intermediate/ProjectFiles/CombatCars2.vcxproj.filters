@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CombatCars2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DDCAFBB3-1E3C-49FB-A7E8-9BE0BEC7B2DB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CombatCars2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CombatCars2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{19149F1B-AB58-4F64-881A-31B1F9F3A785}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CombatCars2">
+			<UniqueIdentifier>{DE1BCAAE-D9A0-45BF-92C4-FF12AEDBA5AC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CombatCars2\CombatCars2.Build.cs">
+			<Filter>Source\CombatCars2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CombatCars2\CombatCars2.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\CombatCars2.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\CombatCars2GameMode.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\CombatCars2GameMode.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\CombatCars2Hud.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\CombatCars2Hud.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\CombatCars2Pawn.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\CombatCars2Pawn.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\CombatCars2WheelFront.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\CombatCars2WheelFront.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\CombatCars2WheelRear.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\CombatCars2WheelRear.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\CPPBullet.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\CPPBullet.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\DamageController.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\DamageController.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\GunController.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\GunController.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CombatCars2\GunMount.cpp">
+			<Filter>Source\CombatCars2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CombatCars2\GunMount.h">
+			<Filter>Source\CombatCars2</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
