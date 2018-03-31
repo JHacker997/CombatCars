@@ -18,12 +18,6 @@ public:
 	UGunController();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UStaticMeshComponent* Mesh;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	USceneComponent* Scene;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent *JoyfulControl;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -53,11 +47,6 @@ public:
 	int i;
 	int j;
 
-	UFUNCTION(BlueprintCallable)
-		void changeMesh(UStaticMeshComponent *thing);
-
-	UFUNCTION(BlueprintCallable)
-		void changeMeshBack(UStaticMeshComponent *thing);
 
 	UFUNCTION(BlueprintCallable)
 	void killChildren();

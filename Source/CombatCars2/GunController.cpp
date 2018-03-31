@@ -34,7 +34,7 @@ void UGunController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	
+	// gungun2->DestroyChildActor();
 	// ...
 	
 }
@@ -44,110 +44,35 @@ void UGunController::BeginPlay()
 void UGunController::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("TICK"));
-
+	
 	UClass *test = Bullet1->GeneratedClass;
 	UWorld* const World = GetWorld();
 
 	FActorSpawnParameters SpawnInfo;
 
-	
-
 	if (i == 120)
 	{
 		if (j == 0)
 		{
-			changeMesh(Mesh);
-			// gungun->SetChildActorClass(gun3->GetBlueprintClass());
 			gungun->CreateChildActor();
 			gungun2->DestroyChildActor();
 			j = 1;
 		}
 		else
 		{
-			changeMeshBack(Mesh);
-			// gungun->SetChildActorClass(gun2->GetBlueprintClass());
 			gungun2->CreateChildActor();
 			gungun->DestroyChildActor();
 			j = 0;
 		}
 
-		USceneComponent *me = (USceneComponent *)this;
-		FTransform otherthing = me->GetComponentToWorld();
-		//FVector	idk = otherthing.GetLocation();
-		FVector	idk =  me->GetComponentLocation();
-
-		// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, (TEXT("Location of me: %s"), idk.ToString()));
-		// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, (TEXT("Location of Actor: %s"), location.ToString()));
-
-		// if(gungun == NULL)
-			// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, (TEXT("Child NULL")));
-		// else
-			// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, (TEXT("Child NOT NULL")));
-
-		// World->SpawnActor<AActor>(test, location, FRotator(0.0, 0.0, 0.0), SpawnInfo);
-
-		
-		
-
 		i = 0;
 	}
 
 	i++;
-	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Some debug message!"));
-	// ...
-
-	
-}
-
-
-void UGunController::changeMesh(UStaticMeshComponent *thing)
-{
-	GEngine->AddOnScreenDebugMessage(5, 15.0f, FColor::Yellow, TEXT("CHANGE"));
-
-	if (thing == 0)
-	{
-		GEngine->AddOnScreenDebugMessage(5, 15.0f, FColor::Yellow, TEXT("THING NULL"));
-		return;
-	}
-
-	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("THING NOT NULL"));
-	// static ConstructorHelpers::FObjectFinder<UStaticMesh> StaticMeshOb_AW2(TEXT("StaticMesh'/Game/VehicleAdvBP/Blueprints/TankCannon.TankCannon"));
-	// thing->DestroyComponent();
 		
-	thing->SetStaticMesh(AssetSM_JoyControl);
-	FVector MeshScale = FVector(0.4, 0.4, 0.4);
-	FRotator MeshRotation = FRotator(0.0, 0.0, -90.0);
-	thing->SetWorldScale3D(MeshScale);
-	thing->SetRelativeRotation(MeshRotation);
-	
-
-
 }
 
-void UGunController::changeMeshBack(UStaticMeshComponent *thing)
-{
-	GEngine->AddOnScreenDebugMessage(5, 15.0f, FColor::Yellow, TEXT("CHANGE BACK!"));
 
-	if (thing == 0)
-	{
-		GEngine->AddOnScreenDebugMessage(5, 15.0f, FColor::Yellow, TEXT("THING NULL"));
-		return;
-	}
-
-	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("THING NOT NULL"));
-	// static ConstructorHelpers::FObjectFinder<UStaticMesh> StaticMeshOb_AW2(TEXT("StaticMesh'/Game/VehicleAdvBP/Blueprints/TankCannon.TankCannon"));
-	// thing->DestroyComponent();
-
-	thing->SetStaticMesh(AssetSM_JoyControl2);
-	FVector MeshScale = FVector(10.0, 10.0, 10.0);
-	FRotator MeshRotation = FRotator(0.0, 0.0, 0.0);
-	thing->SetWorldScale3D(MeshScale);
-	thing->SetRelativeRotation(MeshRotation);
-
-
-
-}
 
 void UGunController::killChildren()
 {

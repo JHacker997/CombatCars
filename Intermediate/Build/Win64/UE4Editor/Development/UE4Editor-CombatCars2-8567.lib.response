@@ -1,0 +1,32 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CombatCars2-8567.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2GameMode.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2Hud.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2Pawn.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2WheelFront.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2WheelRear.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CPPBullet.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\DamageController.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\GunController.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\GunMount.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2.init.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2GameMode.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2Hud.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2Pawn.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2WheelFront.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CombatCars2WheelRear.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\CPPBullet.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\DamageController.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\GunController.gen.cpp.obj"
+"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\GunMount.gen.cpp.obj"
+"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\CombatCars2\PCLaunch.rc.res"
+"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"F:\CC\CombatCars2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CombatCars2-8567.lib"
