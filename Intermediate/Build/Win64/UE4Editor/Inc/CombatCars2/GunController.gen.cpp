@@ -18,11 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeGunController() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_CombatCars2();
 	COMBATCARS2_API UFunction* Z_Construct_UFunction_UGunController_killChildren();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprint_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UChildActorComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void UGunController::StaticRegisterNativesUGunController()
 	{
@@ -72,13 +69,6 @@ void EmptyLinkFunctionForGeneratedCodeGunController() {}
 			};
 #endif
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_location_MetaData[] = {
-				{ "Category", "GunController" },
-				{ "ModuleRelativePath", "GunController.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_location = { UE4CodeGen_Private::EPropertyClass::Struct, "location", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UGunController, location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(NewProp_location_MetaData, ARRAY_COUNT(NewProp_location_MetaData)) };
-#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_gun3_MetaData[] = {
 				{ "Category", "GunController" },
 				{ "ModuleRelativePath", "GunController.h" },
@@ -109,44 +99,18 @@ void EmptyLinkFunctionForGeneratedCodeGunController() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_gungun = { UE4CodeGen_Private::EPropertyClass::Object, "gungun", RF_Public|RF_Transient|RF_MarkAsNative, 0x001000000008000d, 1, nullptr, STRUCT_OFFSET(UGunController, gungun), Z_Construct_UClass_UChildActorComponent_NoRegister, METADATA_PARAMS(NewProp_gungun_MetaData, ARRAY_COUNT(NewProp_gungun_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AssetSM_JoyControl2_MetaData[] = {
-				{ "Category", "GunController" },
-				{ "ModuleRelativePath", "GunController.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AssetSM_JoyControl2 = { UE4CodeGen_Private::EPropertyClass::Object, "AssetSM_JoyControl2", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UGunController, AssetSM_JoyControl2), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(NewProp_AssetSM_JoyControl2_MetaData, ARRAY_COUNT(NewProp_AssetSM_JoyControl2_MetaData)) };
-#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Bullet1_MetaData[] = {
 				{ "Category", "GunController" },
 				{ "ModuleRelativePath", "GunController.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Bullet1 = { UE4CodeGen_Private::EPropertyClass::Object, "Bullet1", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UGunController, Bullet1), Z_Construct_UClass_UBlueprint_NoRegister, METADATA_PARAMS(NewProp_Bullet1_MetaData, ARRAY_COUNT(NewProp_Bullet1_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AssetSM_JoyControl_MetaData[] = {
-				{ "Category", "GunController" },
-				{ "ModuleRelativePath", "GunController.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AssetSM_JoyControl = { UE4CodeGen_Private::EPropertyClass::Object, "AssetSM_JoyControl", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UGunController, AssetSM_JoyControl), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(NewProp_AssetSM_JoyControl_MetaData, ARRAY_COUNT(NewProp_AssetSM_JoyControl_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_JoyfulControl_MetaData[] = {
-				{ "Category", "GunController" },
-				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "GunController.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_JoyfulControl = { UE4CodeGen_Private::EPropertyClass::Object, "JoyfulControl", RF_Public|RF_Transient|RF_MarkAsNative, 0x001000000008000d, 1, nullptr, STRUCT_OFFSET(UGunController, JoyfulControl), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_JoyfulControl_MetaData, ARRAY_COUNT(NewProp_JoyfulControl_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_location,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_gun3,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_gun2,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_gungun2,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_gungun,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AssetSM_JoyControl2,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Bullet1,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AssetSM_JoyControl,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_JoyfulControl,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<UGunController>::IsAbstract,
@@ -166,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeGunController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGunController, 3450429594);
+	IMPLEMENT_CLASS(UGunController, 3040439279);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGunController(Z_Construct_UClass_UGunController, &UGunController::StaticClass, TEXT("/Script/CombatCars2"), TEXT("UGunController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGunController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

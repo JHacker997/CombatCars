@@ -17,17 +17,11 @@ public:
 	// Sets default values for this component's properties
 	UGunController();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UStaticMeshComponent *JoyfulControl;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UStaticMesh * AssetSM_JoyControl;
+	
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UBlueprint* Bullet1;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UStaticMesh *AssetSM_JoyControl2;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UChildActorComponent *gungun;
@@ -41,8 +35,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UBlueprint* gun3;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FVector location;
 
 	int i;
 	int j;

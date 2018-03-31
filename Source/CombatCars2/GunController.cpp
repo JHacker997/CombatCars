@@ -18,11 +18,8 @@ UGunController::UGunController()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-
-
 	UWorld* const world = GetWorld();
 	
-
 	i = 0;
 	j = 0;
 	// ...

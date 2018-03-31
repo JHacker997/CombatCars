@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeCombatCars2_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/CombatCars2",
 				PKG_CompiledIn | 0x00000000,
-				0x65B29846,
+				0xCD432CBC,
 				0x5ECCC18F,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
