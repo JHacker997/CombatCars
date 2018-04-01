@@ -35,12 +35,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UBlueprint* gun3;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<UBlueprint *> GunsBP;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<UChildActorComponent *> GunsCA;
-
 
 	int i;
 	int j;
@@ -48,9 +42,6 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void killChildren();
-
-	UFUNCTION(BlueprintCallable)
-	void swapGuns();
 
 
 protected:

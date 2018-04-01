@@ -31,8 +31,6 @@ void UGunController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	j = 1;
-
 	// gungun2->DestroyChildActor();
 	// ...
 	
@@ -44,27 +42,13 @@ void UGunController::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
-	
-		
-}
+	UClass *test = Bullet1->GeneratedClass;
+	UWorld* const World = GetWorld();
 
+	FActorSpawnParameters SpawnInfo;
 
-
-void UGunController::killChildren()
-{
-
-	if(gungun2)
-		gungun2->DestroyChildActor();
-
-}
-
-void UGunController::swapGuns()
-{
-
-	if (gungun && gungun2)
+	if (i == 120)
 	{
-		GEngine->AddOnScreenDebugMessage(10, 5.f, FColor::Red, TEXT("Trying to Switch guns"));
-
 		if (j == 0)
 		{
 			gungun->CreateChildActor();
@@ -77,7 +61,20 @@ void UGunController::swapGuns()
 			gungun->DestroyChildActor();
 			j = 0;
 		}
+
+		i = 0;
 	}
+
+	i++;
+		
+}
+
+
+
+void UGunController::killChildren()
+{
+
+	gungun2->DestroyChildActor();
 
 }
 

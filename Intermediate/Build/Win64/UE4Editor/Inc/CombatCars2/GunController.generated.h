@@ -15,14 +15,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CombatCars3_Source_CombatCars2_GunController_h_14_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execswapGuns) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->swapGuns(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execkillChildren) \
 	{ \
 		P_FINISH; \
@@ -33,14 +25,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define CombatCars3_Source_CombatCars2_GunController_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execswapGuns) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->swapGuns(); \
-		P_NATIVE_END; \
-	} \
  \
 	DECLARE_FUNCTION(execkillChildren) \
 	{ \
