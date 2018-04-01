@@ -16,7 +16,6 @@
 	},
 	"BuildProducts": [
 		{
-<<<<<<< HEAD
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 			"Type": "Executable",
 			"IsPrecompiled": true
@@ -6636,18 +6635,6 @@
 		{
 			"Path": "$(EngineDir)/Content/Slate/Icons/icon_tab_WidgetReflector_16x.png",
 			"Type": "UFS"
-=======
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CombatCars2-5174.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CombatCars2-5174.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-CombatCars2-5174.lib",
-			"Type": "ImportLibrary"
->>>>>>> parent of 8092925... Imporved AI (added pursuit multiplier that determines by how much it looks forward) and added auto reset to enemies so that they wont get perm stuck. Also added another type, a small faster one
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Icons/icon_tab_WidgetReflector_40x.png",
