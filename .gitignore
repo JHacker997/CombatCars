@@ -7,3 +7,6 @@ Saved/Logs/
 Saved/Config/Windows/EditorPerProjectUserSettings.ini
 *.log
 *.log
+
+Intermediate/Build/Win64/
+Binaries/Win64/
