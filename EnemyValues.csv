@@ -1,0 +1,8 @@
+,Value
+SpawnDelay,10
+FireDelay,60
+StatesAmount,4
+SeekTime,15
+PursueTime,15
+FleeTime,5
+WanderTime,5
