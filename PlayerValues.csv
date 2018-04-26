@@ -1,6 +1,6 @@
 ,Value
 WinScore,1000
 YellowBulletDamage,20
-YellowFireDelay,30
+YellowFireDelay,50
 RedBulletDamage,10
-RedFireDelay,10
+RedFireDelay,20
