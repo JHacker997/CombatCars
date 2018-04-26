@@ -1,6 +1,8 @@
 ,Value
 SpawnDelay,10
 FireDelay,60
+LargeSpeed,1000
+TinySpeed,2000
 StatesAmount,4
 SeekTime,15
 PursueTime,15
