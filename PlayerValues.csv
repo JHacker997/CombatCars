@@ -4,3 +4,4 @@ YellowBulletDamage,20
 YellowFireDelay,50
 RedBulletDamage,10
 RedFireDelay,20
+MaxGunRotation,25
