@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COMBATCARS2_DamageController_generated_h
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS \
+#define CC3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetHealthMax) \
 	{ \
@@ -34,7 +34,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CC3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetHealthMax) \
 	{ \
@@ -55,7 +55,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_INCLASS_NO_PURE_DECLS \
+#define CC3_Source_CombatCars2_DamageController_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDamageController(); \
 	friend COMBATCARS2_API class UClass* Z_Construct_UClass_UDamageController(); \
@@ -65,7 +65,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_INCLASS \
+#define CC3_Source_CombatCars2_DamageController_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUDamageController(); \
 	friend COMBATCARS2_API class UClass* Z_Construct_UClass_UDamageController(); \
@@ -75,7 +75,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_STANDARD_CONSTRUCTORS \
+#define CC3_Source_CombatCars2_DamageController_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDamageController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDamageController) \
@@ -88,7 +88,7 @@ private: \
 public:
 
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_ENHANCED_CONSTRUCTORS \
+#define CC3_Source_CombatCars2_DamageController_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UDamageController(UDamageController&&); \
@@ -99,32 +99,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDamageController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDamageController)
 
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_PRIVATE_PROPERTY_OFFSET
-#define CombatCars3_Source_CombatCars2_DamageController_h_10_PROLOG
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_GENERATED_BODY_LEGACY \
+#define CC3_Source_CombatCars2_DamageController_h_13_PRIVATE_PROPERTY_OFFSET
+#define CC3_Source_CombatCars2_DamageController_h_10_PROLOG
+#define CC3_Source_CombatCars2_DamageController_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_PRIVATE_PROPERTY_OFFSET \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_INCLASS \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_STANDARD_CONSTRUCTORS \
+	CC3_Source_CombatCars2_DamageController_h_13_PRIVATE_PROPERTY_OFFSET \
+	CC3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS \
+	CC3_Source_CombatCars2_DamageController_h_13_INCLASS \
+	CC3_Source_CombatCars2_DamageController_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CombatCars3_Source_CombatCars2_DamageController_h_13_GENERATED_BODY \
+#define CC3_Source_CombatCars2_DamageController_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_PRIVATE_PROPERTY_OFFSET \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_INCLASS_NO_PURE_DECLS \
-	CombatCars3_Source_CombatCars2_DamageController_h_13_ENHANCED_CONSTRUCTORS \
+	CC3_Source_CombatCars2_DamageController_h_13_PRIVATE_PROPERTY_OFFSET \
+	CC3_Source_CombatCars2_DamageController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	CC3_Source_CombatCars2_DamageController_h_13_INCLASS_NO_PURE_DECLS \
+	CC3_Source_CombatCars2_DamageController_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID CombatCars3_Source_CombatCars2_DamageController_h
+#define CURRENT_FILE_ID CC3_Source_CombatCars2_DamageController_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
