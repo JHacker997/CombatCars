@@ -3,7 +3,7 @@ SpawnDelay,10
 FireDelay,60
 LargeSpeed,1000
 TinySpeed,2000
-StatesAmount,4
+StatesAmount,2
 SeekTime,15
 PursueTime,15
 FleeTime,5

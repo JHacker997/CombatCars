@@ -1,7 +1,8 @@
 ,Value
-WinScore,1000
+WinScore,300
 YellowBulletDamage,20
 YellowFireDelay,50
 RedBulletDamage,10
 RedFireDelay,20
-MaxGunRotation,25
+MaxGunRotation,30
+MusicVoume,35
