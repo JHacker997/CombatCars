@@ -1,6 +1,7 @@
 ,Value
 SpawnDelay,10
 FireDelay,60
+FireDelay2,20
 LargeSpeed,1000
 TinySpeed,2000
 StatesAmount,2
