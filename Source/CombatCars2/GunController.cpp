@@ -63,7 +63,7 @@ void UGunController::swapGuns()
 
 	if (gungun && gungun2)
 	{
-		GEngine->AddOnScreenDebugMessage(10, 5.f, FColor::Red, TEXT("Trying to Switch guns"));
+		// GEngine->AddOnScreenDebugMessage(10, 5.f, FColor::Red, TEXT("Trying to Switch guns"));
 
 		if (j == 0)
 		{

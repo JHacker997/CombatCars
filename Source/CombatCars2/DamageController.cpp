@@ -50,9 +50,9 @@ float UDamageController::ApplyDamage(int damage)
 	HealthPer = (float)HealthCur / HealthMax;
 	
 	//FString::Printf(TEXT("Some variable values: x: %f, y: %f"), x, y));
-	GEngine->AddOnScreenDebugMessage(1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Damage:\t%d"), damage));
-	GEngine->AddOnScreenDebugMessage(2, 15.0f, FColor::Yellow, FString::Printf(TEXT("HealthCur:\t%d"), HealthCur));
-	GEngine->AddOnScreenDebugMessage(3, 15.0f, FColor::Yellow, FString::Printf(TEXT("HealthPer:\t%f"), HealthPer));
+	// GEngine->AddOnScreenDebugMessage(1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Damage:\t%d"), damage));
+	// GEngine->AddOnScreenDebugMessage(2, 15.0f, FColor::Yellow, FString::Printf(TEXT("HealthCur:\t%d"), HealthCur));
+	// GEngine->AddOnScreenDebugMessage(3, 15.0f, FColor::Yellow, FString::Printf(TEXT("HealthPer:\t%f"), HealthPer));
 	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, (TEXT("Applying Damage:")));
 	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, (TEXT("Applying Damage: %s, Health after: %s, returning: %s"), FString::FromInt(damage), FString::FromInt(HealthCur), FString::FromInt(HealthPer)));
 	
