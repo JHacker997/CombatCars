@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COMBATCARS2_CombatCars2Pawn_generated_h
 
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS_NO_PURE_DECLS
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS_NO_PURE_DECLS \
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACombatCars2Pawn(); \
 	friend COMBATCARS2_API class UClass* Z_Construct_UClass_ACombatCars2Pawn(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS \
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesACombatCars2Pawn(); \
 	friend COMBATCARS2_API class UClass* Z_Construct_UClass_ACombatCars2Pawn(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_STANDARD_CONSTRUCTORS \
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACombatCars2Pawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACombatCars2Pawn) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_ENHANCED_CONSTRUCTORS \
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACombatCars2Pawn(ACombatCars2Pawn&&); \
@@ -59,7 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACombatCars2Pawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACombatCars2Pawn)
 
 
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_PRIVATE_PROPERTY_OFFSET \
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ACombatCars2Pawn, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ACombatCars2Pawn, Camera); } \
 	FORCEINLINE static uint32 __PPO__InternalCameraBase() { return STRUCT_OFFSET(ACombatCars2Pawn, InternalCameraBase); } \
@@ -69,31 +69,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACombatCars2Pawn); \
 	FORCEINLINE static uint32 __PPO__EngineSoundComponent() { return STRUCT_OFFSET(ACombatCars2Pawn, EngineSoundComponent); }
 
 
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_16_PROLOG
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_GENERATED_BODY_LEGACY \
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_16_PROLOG
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_PRIVATE_PROPERTY_OFFSET \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_STANDARD_CONSTRUCTORS \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_PRIVATE_PROPERTY_OFFSET \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_GENERATED_BODY \
+#define CC3_Source_CombatCars2_CombatCars2Pawn_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_PRIVATE_PROPERTY_OFFSET \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS_NO_PURE_DECLS \
-	CombatCars3_Source_CombatCars2_CombatCars2Pawn_h_19_ENHANCED_CONSTRUCTORS \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_PRIVATE_PROPERTY_OFFSET \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_INCLASS_NO_PURE_DECLS \
+	CC3_Source_CombatCars2_CombatCars2Pawn_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID CombatCars3_Source_CombatCars2_CombatCars2Pawn_h
+#define CURRENT_FILE_ID CC3_Source_CombatCars2_CombatCars2Pawn_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
