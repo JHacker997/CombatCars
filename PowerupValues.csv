@@ -1,5 +1,5 @@
 ,Value
 PowerupSpawnDelay,10
-PowerupTime,20
-PowerupFireDelay,2
-HealthBoost,20
+PowerupTime,60
+PowerupFireDelay,3
+HealthBoost,150
